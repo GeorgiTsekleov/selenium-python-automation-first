@@ -157,6 +157,8 @@ class TestSearchAndVirifyFilter():
                 time.sleep(2)
                 break
         driver.quit()
+        
+
 
 bookingtest = TestSearchAndVirifyFilter() #create a object
 bookingtest.test_search_hotels() #create a method
